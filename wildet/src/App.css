@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --small-none-regular: Inter;
+
+  /* font sizes */
+  --tiny-none-regular-size: 0.75rem;
+  --font-size-xs: 0.75rem;
+  --small-none-regular-size: 0.88rem;
+  --regular-normal-regular-size: 1rem;
+  --large-normal-bold-size: 1.13rem;
+  --title3-size: 1.5rem;
+  --title2-size: 2rem;
+
+  /* Colors */
+  --ink-lighter: #72777a;
+  --ink-darkest: #090a0a;
+  --sky-white: #fff;
+  --primary-base: #6b4eff;
+  --sky-light: #e3e5e5;
+  --color-black: #000;
+  --sky-lighter: #f2f4f5;
+  --sky-dark: #979c9e;
+  --ink-light: #6c7072;
+  --sky-base: #cdcfd0;
+
+  /* Gaps */
+  --gap-xs: 0.25rem;
+  --gap-sm: 0.5rem;
+  --gap-md: 0.75rem;
+  --gap-lg: 1rem;
+  --gap-xl: 1.5rem;
+
+  /* Paddings */
+  --padding-xs: 0.5rem;
+  --padding-sm: 1rem;
+  --padding-md: 3.88rem;
+  --padding-lg: 8.19rem;
+
+  /* border radiuses */
+  --br-xs: 8px;
+  --br-sm: 16px;
+  --br-md: 32px;
+  --br-lg: 48px;
+  --br-xl: 100px;
+
+  /* Effects */
+  --shadow-small: 0px 0px 1px rgba(20, 20, 20, 0.04),
+    0px 0px 8px rgba(20, 20, 20, 0.08);
+}

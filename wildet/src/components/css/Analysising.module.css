@@ -1,0 +1,115 @@
+.bufferingIcon {
+  position: relative;
+  width: 12.25rem;
+  height: 13.25rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+.text_b,
+.div {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  width: 14.38rem;
+}
+.div {
+  font-size: var(--small-none-regular-size);
+  line-height: 1.25rem;
+  width: 12.13rem;
+}
+.text {
+  width: 15.63rem;
+  gap: var(--gap-md);
+}
+.content,
+.info,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  position: absolute;
+  height: calc(100% - 180px);
+  width: 100%;
+  top: 4.69rem;
+  right: 0;
+  bottom: 6.56rem;
+  left: 0;
+  padding: var(--padding-lg) var(--padding-md);
+  box-sizing: border-box;
+}
+.rightActionable,
+.title {
+  position: absoluteaue;
+  top: calc(50% - 9px);
+  line-height: 1.13rem;
+}
+.title {
+  left: calc(50% - 28.5px);
+  color: #006400;
+}
+.rightActionable {
+  right: 1.5rem;
+  font-weight: 500;
+  color: var(--primary-base);
+  text-align: right;
+  display: none;
+}
+.leftActionableIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 1.13rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.barsNavBarsStandard {
+  position: absolute;
+  width: 100%;
+  top: 2.75rem;
+  right: 0;
+  left: 0;
+  background-color: var(--color-white);
+  height: 3rem;
+}
+.partialsTabBarIconOnly {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.analysising,
+.barsTabBarIconOnly {
+  background-color: white;
+  width: 100%;
+}
+.TabBar {
+  position: absolute;
+  right: 0;
+  bottom: 2.13rem;
+  left: 0;
+  box-shadow: 0-1px 1px rgba(20, 20, 20, 0.02), 0-2px 8px rgba(20, 20, 20, 0.04);
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.analysising {
+  position: relative;
+  /* border-radius: var(--br-md); */
+  height: 50.75rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--large-normal-bold-size);
+  color: var(--ink-darkest);
+  font-family: var(--small-none-regular);
+}

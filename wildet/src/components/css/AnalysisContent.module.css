@@ -1,0 +1,182 @@
+.illustrationIcon {
+  position: relative;
+  width: 15.63rem;
+  height: 15.63rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.b,
+.div {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  width: 14.38rem;
+}
+.div {
+  font-size: var(--small-none-regular-size);
+  line-height: 1.25rem;
+  width: 12.13rem;
+}
+.text {
+  width: 15.63rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.text1 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 29px);
+  line-height: 1rem;
+  font-weight: 500;
+}
+.controlsButtons {
+  position: relative;
+  border-radius: var(--br-lg);
+  background-color: var(--ink-darkest);
+  width: 10.63rem;
+  height: 3rem;
+  flex-shrink: 0;
+  font-size: var(--regular-normal-regular-size);
+  color: var(--sky-white);
+}
+.content,
+.content1 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content1 {
+  display: flex;
+  gap: var(--gap-xl);
+}
+.content {
+  position: absolute;
+  height: calc(100% - 180px);
+  width: 100%;
+  top: 4.69rem;
+  right: 0;
+  bottom: 6.56rem;
+  left: 0;
+  display: none;
+  padding: var(--padding-lg) var(--padding-md);
+  box-sizing: border-box;
+}
+.rightActionable,
+.title {
+  position: absolute;
+  top: calc(50% - 9px);
+  line-height: 1.13rem;
+}
+.title {
+  left: calc(50% - 28.5px);
+}
+.rightActionable {
+  right: 1.5rem;
+  font-weight: 500;
+  color: var(--primary-base);
+  text-align: right;
+  display: none;
+}
+.leftActionableIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 1.13rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  display: none;
+}
+.barsNavBarsStandard {
+  top: 2.75rem;
+  background-color: var(--sky-white);
+  height: 3rem;
+  display: none;
+  color: #006400;
+}
+.barsNavBarsStandard,
+.partialsOverlay,
+.viewsBottomSheetslight {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+.partialsOverlay {
+  height: calc(100% + 10px);
+  top: -0.62rem;
+  bottom: 0;
+  background-color: var(--ink-darkest);
+  opacity: 0.7;
+}
+.viewsBottomSheetslight {
+  bottom: -1.19rem;
+  border-radius: var(--br-sm) var(--br-sm) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 13.06rem;
+}
+.text2 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 45.5px);
+  font-size: var(--regular-normal-regular-size);
+  line-height: 1rem;
+  font-weight: 500;
+  font-family: var(--small-none-regular);
+  color: var(--sky-white);
+  text-align: center;
+  background-color: #006400;
+}
+.controlsButtons1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #006400;
+  position: absolute;
+  width: calc(100% - 48px);
+  right: 1.5rem;
+  bottom: 2.31rem;
+  left: 1.5rem;
+  border-radius: var(--br-lg);
+  height: 3rem;
+}
+.text3 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 40.5px);
+  font-size: var(--regular-normal-regular-size);
+  line-height: 1rem;
+  font-weight: 500;
+  font-family: var(--small-none-regular);
+  color: var(--sky-white);
+  text-align: center;
+}
+.controlsButtons2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #006400;
+  position: absolute;
+  width: calc(100% - 48px);
+  right: 1.44rem;
+  bottom: 6rem;
+  left: 1.56rem;
+  border-radius: var(--br-lg);
+  height: 3rem;
+}
+.analysiscontent {
+  position: relative;
+  /* border-radius: var(--br-md); */
+  background-color: var(--sky-white);
+  width: 100%;
+  height: 50.75rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--large-normal-bold-size);
+  color: var(--ink-darkest);
+  font-family: var(--small-none-regular);
+}
