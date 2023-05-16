@@ -22,5 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-detect/yolov5
+#detect/yolov5
 wildet/node_modules/.cache
