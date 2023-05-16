@@ -1,0 +1,2 @@
+/Users/minjeongyeom/Projects/project-wildet/wildet/node_modules/.cache/* filter=lfs diff=lfs merge=lfs -text
+/Users/minjeongyeom/Projects/project-wildet/wildet/node_modules/* filter=lfs diff=lfs merge=lfs -text
